@@ -45,6 +45,7 @@ html{
     color: #fff;
     border: none;
     border-radius: .5rem;
+    cursor: pointer;
 }
 
 /* ===================Donate section================== */
@@ -390,7 +391,7 @@ html{
         width: 90%;
     }
     .contruibute-content p{
-        max-width: 40rem;gti
+        max-width: 40rem;
         text-align: center;
     }
     .contruibute-content h1{
