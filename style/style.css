@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header-section{
+    max-width: 1440px;
+    height: 100vh;
+    background:linear-gradient(0.00deg, rgb(18, 18, 18),rgba(18, 18, 18, 0) 100%) ,url("../images/donation1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.headar-content{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+.headar-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.headar-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 36rem;
+    margin: 1rem auto;
+}
+.btn button{
+    padding: .7rem 1.2rem;
+    margin-top: 1rem;
+    background-color: rgb(255, 89, 89);
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+}
+
+/* ===================Donate section================== */
+.donate-today{
+    width: 800px;
+    height: auto;
+    margin: 8rem auto;
+}
+.donate-content{
+    text-align: center;
+}
+.donate-content h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.donate-content p{
+    max-width: 36rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem auto;
+    color: rgb(112, 112, 112);
+}
+.number-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.cart{
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .8rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+}
+.cart:active{
+    background-color: rgb(255, 142, 142);
+    border: 2px solid rgb(255, 84, 84);
+}
+.amount{
+    margin-top: 4rem;
+    text-align: center;
+}
+.amount p{
+    margin: 1rem 0;
+    color: rgb(112, 112, 112);
+}
+.amount hr{
+    color: rgb(112, 112, 112);
+}
+/* =====================Donar cart section===================== */
+.donar-plan-cart-section{
+    width: 1140px;
+    height: auto;
+    margin: 8rem auto;
+    text-align: center;
+}
+.donar-plan-content h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.donar-plan-content p{
+    max-width: 36rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem auto;
+    color: rgb(112, 112, 112);
+}
+.donar-plan-carts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carts{
+    width: 360px;
+    height: 350px;
+    border-radius: .5rem;
+    text-align: start;
+    padding: 4rem 1.8rem;
+    margin-top: 2rem;
+}
+.carts h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.carts h3, p{
+    margin: 1.6rem auto;
+}
+.carts img{
+    width: 5rem;
+}
+.cart11{
+    background: rgba(79, 157, 166, 0.1);
+}
+.cart12{
+    background: rgba(255, 89, 89, 0.1);
+}
+.cart13{
+    background: rgb(255, 254, 206);
+}
+/* =======================MEDIA QUARY SECTION======================== */
+
+
+/* ======================Contribute-section==================== */
+.Contribute-section{
+    width: 1140px;
+    height: auto;
+    margin: 8rem auto;
+    text-align: center;
+}
+.contribute-section-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contruibute-content{
+    text-align: left;
+}
+.contruibute-content h1{
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+.contruibute-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(112, 112, 112);
+    max-width: 28rem;
+}
+.Contribute-section img{
+    width: 40%;
+    border-radius: .8rem;
+}
+.contribute-section-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 11rem;
+}
+
+/* ===================MY UPDATES SECTION===================== */
+.my-updates-section{
+    width: 800px;
+    height: auto;
+    margin: 8rem auto;
+}
+.update-content{
+    text-align: center;
+}
+.update-content h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.update-content p{
+    max-width: 36rem;
+    color: rgb(112, 112, 112);
+}
+.input-feld{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    background-color: rgb(255, 244, 214);
+    border-radius: .5rem;
+    margin-top:3rem;
+}
+.input-feld input{
+    margin: 4.5rem auto;
+    width: 25rem;
+    height: 2.8rem;
+    border-radius: .4rem;
+    border: none;
+    outline: none;
+    background-color: rgb(217, 217, 217);
+    padding: 1rem;
+}
+
+/* ==================MEDIA QUARY================= */
+
+/* ====================FOOTER SECTION=================== */
+.footer-section{
+    max-width: 1440px;
+    height: 180px;
+    background-color: rgb(11, 13, 23);
+}
+.footer-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 3rem;
+}
+.footer-content h3{
+    color: rgb(255, 89, 89);
+    font-size: 1.8rem;
+}
+.footer-content p{
+    color: rgb(217, 219, 225);
+    font-size: .9rem;
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+
+    .header-section{
+        width: 100%;
+    }
+    .headar-content{
+        width: 100%;
+        padding-top: 12rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .headar-content h1{
+        font-size: 1.5rem;
+    }
+    .donate-today{
+        width: 95%;
+        height: auto;
+        margin: 2rem auto;
+    }
+    .number-cart{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .donate-content p{
+        max-width: 30rem;  
+    }
+    .donar-plan-cart-section{
+        width: 100%;     
+        margin: 3rem auto;   
+    }
+    .donar-plan-carts{
+        flex-direction: column;
+    }
+    .my-updates-section{
+        margin: 2rem auto;
+    }
+    .carts{
+        width: 80%;
+        height: 300px;
+        padding: 1rem 1.8rem;
+    }
+    .donar-plan-content p{
+        max-width: 30rem;
+        padding: 0 1rem;
+    }
+    .Contribute-section{
+        width: 100%;
+        flex-direction: column;
+        margin: 3rem auto;
+    }
+    .contrubute-container, 
+    .contribute-section-one, 
+    .contribute-section-two{
+        flex-direction: column;
+    }
+    .contribute-section-one, 
+    .contribute-section-two{
+        padding: 2rem;
+    }
+    .contribute-section-one img,
+     .contribute-section-two img{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .contruibute-content h1{
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+    .contribute-section-two{
+        margin-top: 2rem;
+    }
+    .my-updates-section{
+        width: 100%;
+        padding: 2rem;
+    }
+    .input-feld input{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:990px) {
+    .header-section{
+        width: 100%;
+    }
+    .headar-content{
+        width: 100%;
+        padding-top: 8rem;
+    }
+    .headar-content h1{
+        font-size: 3rem;
+    }
+    .donate-today{
+        width: 95%;
+        height: auto;
+        margin: 8rem auto;
+    }
+    .number-cart{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .donate-content p{
+        max-width: 30rem;  
+    }
+    .donar-plan-cart-section{
+        width: 100%;       
+    }
+    .donar-plan-carts{
+        flex-direction: column;
+    }
+    .carts{
+        width: 90%;
+        margin-top: 2rem;
+    }
+    .donar-plan-content p{
+        max-width: 30rem;
+        padding: 0 1rem;
+    }
+    .Contribute-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contrubute-container, 
+    .contribute-section-one, 
+    .contribute-section-two{
+        flex-direction: column;
+    }
+    .contribute-section-one, 
+    .contribute-section-two{
+        padding: 2rem;
+    }
+    .contribute-section-one img,
+     .contribute-section-two img{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .contruibute-content{
+        text-align: center;
+        width: 90%;
+    }
+    .contruibute-content p{
+        max-width: 40rem;gti
+        text-align: center;
+    }
+    .contruibute-content h1{
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+    .contribute-section-two{
+        margin-top: 2rem;
+    }
+    .my-updates-section{
+        width: 100%;
+        padding: 2rem;
+    }
+    .input-feld input{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .header-section{
+        width: 100%;
+    }
+    .headar-content{
+        width: 100%;
+        padding-top: 7rem;
+    }
+    .headar-content h1{
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    .donate-today{
+        width: 95%;
+        height: auto;
+        margin: 8rem auto;
+    }
+    .number-cart{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .donate-content p{
+        max-width: 30rem;  
+    }
+    .donar-plan-cart-section{
+        width: 100%;        
+    }
+    .donar-plan-carts{
+        flex-direction: column;
+    }
+    .carts{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    .donar-plan-content p{
+        max-width: 30rem;
+        padding: 0 1rem;
+    }
+    .Contribute-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contrubute-container, 
+    .contribute-section-one, 
+    .contribute-section-two{
+        flex-direction: column;
+    }
+    .contribute-section-one, 
+    .contribute-section-two{
+        padding: 2rem;
+    }
+    .contribute-section-one img,
+     .contribute-section-two img{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .contruibute-content{
+        text-align: center;
+        width: 80%;
+    }
+    .contruibute-content p{
+        max-width: 40rem;
+        text-align: center;
+    }
+    .contruibute-content h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .contribute-section-two{
+        margin-top: 2rem;
+    }
+    .my-updates-section{
+        width: 100%;
+        padding: 2rem;
+    }
+    .input-feld input{
+        width: 60%;
+    }
+}
+
